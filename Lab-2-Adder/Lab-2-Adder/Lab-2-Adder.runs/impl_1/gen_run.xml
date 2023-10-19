@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1697071852">
+  <File Type="ROUTE-PWR" Name="RLC_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="RLC.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="RLC_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="RLC_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="RLC_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="RLC.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="RLC_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="RLC_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="RLC_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="RLC_opt.dcp"/>
+  <File Type="OPT-DRC" Name="RLC_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="RLC.hwdef"/>
+  <File Type="PWROPT-DCP" Name="RLC_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="RLC_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="RLC_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="RLC_placed.dcp"/>
+  <File Type="PLACE-IO" Name="RLC_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="RLC_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="RLC_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="RLC_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="RLC_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="RLC_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="RLC_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="RLC.bin"/>
+  <File Type="PLACE-TIMING" Name="RLC_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="RLC_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="RLC_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="RLC_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="RLC.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="RLC_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="RLC_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="RLC_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="RLC.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="RLC_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="RLC_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="RLC_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="RLC_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="RLC_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="RLC_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="RLC_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="RLC_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="RLC_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="RLC_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="RLC_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="RLC_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="RLC_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="RLC_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="RLC_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="RLC_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="RLC_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="RLC_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="RLC_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="RLC_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="RLC_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="RLC_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="RLC_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="RLC_TB_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="RLC_TB_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="RLC_TB_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="RLC_TB_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="RLC.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="RLC_TB_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="RLC_TB_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="RLC.nky"/>
+  <File Type="BITSTR-BMM" Name="RLC_bd.bmm"/>
+  <File Type="PDI-FILE" Name="RLC.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="RLC_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="RLC_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="RLC.rcfi"/>
+  <File Type="CFI_FILE" Name="RLC.cfi"/>
+  <File Type="RNPI_FILE" Name="RLC.rnpi"/>
+  <File Type="NPI_FILE" Name="RLC.npi"/>
+  <File Type="RBD_FILE" Name="RLC.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="RLC.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="RLC.sysdef"/>
+  <File Type="BG-BGN" Name="RLC.bgn"/>
+  <File Type="BG-DRC" Name="RLC.drc"/>
+  <File Type="RDI-RDI" Name="RLC.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="RLC_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="RLC_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FA.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HA.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RLC.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/RLC_TB.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="RLC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Basys3_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/RLC.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
