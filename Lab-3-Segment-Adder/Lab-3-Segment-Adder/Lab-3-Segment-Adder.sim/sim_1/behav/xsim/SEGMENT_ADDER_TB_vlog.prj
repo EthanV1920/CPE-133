@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Lab-3-Segment-Adder.srcs/sources_1/new/BIN_HEX.sv" \
+"../../../../../../Lab-2-Adder/Lab-2-Adder/Lab-2-Adder.srcs/sources_1/new/FA.sv" \
+"../../../../../../Lab-2-Adder/Lab-2-Adder/Lab-2-Adder.srcs/sources_1/new/HA.sv" \
+"../../../../Lab-3-Segment-Adder.srcs/sources_1/new/MUX.sv" \
+"../../../../../../Lab-2-Adder/Lab-2-Adder/Lab-2-Adder.srcs/sources_1/new/RLC.sv" \
+"../../../../Lab-3-Segment-Adder.srcs/sources_1/new/SEGMENT_ADDER.sv" \
+"../../../../Lab-3-Segment-Adder.srcs/sim_1/new/SEGMENT_ADDER_TB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

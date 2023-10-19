@@ -1,0 +1,4 @@
+Running: xsim.dir/SEGMENT_ADDER_TB_behav/xsimk.exe -simmode gui -wdb SEGMENT_ADDER_TB_behav.wdb -simrunnum 0 -socket 63368
+Design successfully loaded
+Design Loading Memory Usage: 11960 KB (Peak: 11960 KB)
+Design Loading CPU Usage: 15 ms
