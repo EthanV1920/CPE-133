@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2023.1.1 (64-bit)                                   -->
+<!--                                                                              -->
+<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                        -->
+<!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7a35t_0" gui_info=""/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7a35t_0" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value=""/>
+      <Properties Property="PROBES.FILE" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/FLC.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_sysmon" gui_info="">
+    <Object name="XADC" gui_info="dashboard_1=[TEMPERATURE=-65281;VAUXP15_VAUXN15=-16711936;VCCINT=-16738817;VAUXP0_VAUXN0=-8388353;VAUXP1_VAUXN1=-14336;VAUXP2_VAUXN2=-65536;VAUXP3_VAUXN3=-16711681;VAUXP4_VAUXN4=-3355393;VAUXP5_VAUXN5=-15815424;VAUXP6_VAUXN6=-3212288;VAUXP7_VAUXN7=-6410818;VAUXP8_VAUXN8=-4560343;VAUXP9_VAUXN9=-261752;VAUXP10_VAUXN10=-16582256;VAUXP11_VAUXN11=-256;VAUXP12_VAUXN12=-937733;VAUXP13_VAUXN13=-81916;VAUXP14_VAUXN14=-15426561;VCCAUX=-8388353;VCCBRAM=-14336;VCCO_DDR=-65536;VCCPAUX=-16711681;VCCPINT=-65281;VP_VN=-3355393;SCAN_RATE=1000;TRACK_TIME=1;]"/>
+  </ObjectList>
+  <probeset name="hw project" active="false"/>
+</hwsession>
