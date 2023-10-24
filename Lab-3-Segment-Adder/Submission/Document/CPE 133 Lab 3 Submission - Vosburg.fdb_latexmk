@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1697694742 "/Users/ethanvosburg/Documents/git/CPE-133/Lab-3-Segment-Adder/Submission/Document/CPE 133 Lab 3 Submission - Vosburg.tex" "CPE 133 Lab 3 Submission - Vosburg.pdf" "CPE 133 Lab 3 Submission - Vosburg" 1697694744 0
-  "/Users/ethanvosburg/Documents/git/CPE-133/Lab-3-Segment-Adder/Submission/Document/CPE 133 Lab 3 Submission - Vosburg.tex" 1697694742 1490 ee94f33f16c7b7f556ce39742634a8e8 ""
+["pdflatex"] 1698167871 "/Users/ethanvosburg/Documents/git/CPE-133/Lab-3-Segment-Adder/Submission/Document/CPE 133 Lab 3 Submission - Vosburg.tex" "CPE 133 Lab 3 Submission - Vosburg.pdf" "CPE 133 Lab 3 Submission - Vosburg" 1698167872 0
+  "/Users/ethanvosburg/Documents/git/CPE-133/Lab-3-Segment-Adder/Submission/Document/CPE 133 Lab 3 Submission - Vosburg.tex" 1698167870 1491 3a334aa938ba303e763f225927c29700 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -58,12 +58,12 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1696359143 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1696359070 7883455 fc08b1097eb0ecbc1e419a2c2ed11ea0 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "CPE 133 Lab 3 Submission - Vosburg.aux" 1697694744 1704 e173b6a321f31f67086ae081f7b30e99 "pdflatex"
-  "CPE 133 Lab 3 Submission - Vosburg.out" 1697694744 590 8318dea302e5d1ec633ea709027e39bb "pdflatex"
-  "CPE 133 Lab 3 Submission - Vosburg.tex" 1697694742 1490 ee94f33f16c7b7f556ce39742634a8e8 ""
-  "Figures/CPE 133 Lab 3 Elaboragted Design.png" 1697692214 606007 db853eacc568e6891a5123a6411821f4 ""
-  "Figures/CPE 133 Lab 3 Error Log.png" 1697692310 1259717 09192c6b86ac701a24193334ac219572 ""
-  "Figures/CPE 133 Lab 3 Simulation.png" 1697692698 562253 7923ca08bdc2608d41abceb775f71ec0 ""
+  "CPE 133 Lab 3 Submission - Vosburg.aux" 1698167872 1704 e173b6a321f31f67086ae081f7b30e99 "pdflatex"
+  "CPE 133 Lab 3 Submission - Vosburg.out" 1698167872 590 8318dea302e5d1ec633ea709027e39bb "pdflatex"
+  "CPE 133 Lab 3 Submission - Vosburg.tex" 1698167870 1491 3a334aa938ba303e763f225927c29700 ""
+  "Figures/CPE 133 Lab 3 Elaboragted Design.png" 1697736713 606007 db853eacc568e6891a5123a6411821f4 ""
+  "Figures/CPE 133 Lab 3 Error Log.png" 1697736713 1259717 09192c6b86ac701a24193334ac219572 ""
+  "Figures/CPE 133 Lab 3 Simulation.png" 1697736713 562253 7923ca08bdc2608d41abceb775f71ec0 ""
   (generated)
   "CPE 133 Lab 3 Submission - Vosburg.aux"
   "CPE 133 Lab 3 Submission - Vosburg.log"

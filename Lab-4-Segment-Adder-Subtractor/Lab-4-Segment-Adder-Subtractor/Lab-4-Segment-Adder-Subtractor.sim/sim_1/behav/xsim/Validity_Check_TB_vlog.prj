@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sources_1/new/FA.sv" \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sources_1/new/BIN_HEX.sv" \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sources_1/new/MUX.sv" \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sources_1/new/SEGMENT_ADDER.sv" \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sources_1/new/HA.sv" \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sources_1/new/RCA_FA.sv" \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sources_1/new/Validity_Check.sv" \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/RLC_FA_TB.sv" \
+"../../../../Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Validity_Check_TB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
