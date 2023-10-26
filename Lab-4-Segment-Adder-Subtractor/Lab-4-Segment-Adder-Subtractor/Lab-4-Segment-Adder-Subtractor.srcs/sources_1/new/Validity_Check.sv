@@ -29,15 +29,20 @@ module Validity_Check(
 
     always_comb begin : Validity_Check
         if (S == 1) begin
-            if (A == 1 && B == 1)begin
-                valid = 1'b1;
+            if (A == 0 && B == 0)begin
+                valid = 1'b0;
             end
-            else if (A == 0 || B == 0)begin
+            else begin
                 valid = 1'b1;
             end
         end 
         else begin
-            valid = 1'b0;
+            if (A == 1 && B == 1)begin
+                valid = 1'b0;
+            end
+            else begin
+                valid = 1'b1;
+            end
         end
     end
 

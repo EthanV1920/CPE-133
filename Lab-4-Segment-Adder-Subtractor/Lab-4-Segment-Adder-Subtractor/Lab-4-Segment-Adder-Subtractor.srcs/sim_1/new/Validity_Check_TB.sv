@@ -37,34 +37,37 @@ module Validity_Check_TB();
     // Simulation Begin
 
     always begin
-        #10 A_TB = 0;
-            B_TB = 0;
-            S_TB = 0;
-
-        #10 A_TB = 0;
+        #10 A_TB = 1;
             B_TB = 1;
             S_TB = 1;
+
+        #10 A_TB = 1;
+            B_TB = 1;
+            S_TB = 0;
         
         #10 A_TB = 1;
             B_TB = 0;
             S_TB = 1;
 
         #10 A_TB = 1;
-            B_TB = 1;
+            B_TB = 0;
             S_TB = 0;
 
-        #10 A_TB = 1;
+        #10 A_TB = 0;
             B_TB = 1;
+            S_TB = 1;
+
+        #10 A_TB = 0;
+            B_TB = 1;
+            S_TB = 0;
+        
+        #10 A_TB = 0;
+            B_TB = 0;
             S_TB = 1;
 
         #10 A_TB = 0;
             B_TB = 0;
             S_TB = 0;
-        
-        #10 A_TB = 0;
-            B_TB = 1;
-            S_TB = 1;
-
 
     end
 
