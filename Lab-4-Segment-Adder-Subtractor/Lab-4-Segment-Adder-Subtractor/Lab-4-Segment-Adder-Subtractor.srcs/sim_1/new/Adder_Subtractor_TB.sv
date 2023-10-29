@@ -45,139 +45,64 @@ module Adder_Subtractor_TB();
 
     
 
-    // Test task for addition
-    task automatic test_add;
-        // Test case 1: 0 + 0 = 0
-        $display("Test case 1: 0 + 0 = 0");
-        a = 4'h0;
-        b = 4'h0;
-        sub = 1'b0;
-        #10;
-        if (seg == 7'h40 && neg == 1'b0 && an == 4'b1110) $info("Test case 1 passed Seg: %h Neg: %h An: %h", seg, neg, an);
+    // General test task
+    task run_test_case(input [3:0] taska, input [3:0] taskb, input tasksub, input [6:0] expected_seg, input expected_neg, input [3:0] expected_an);
+        if (sub == 0) begin
+            $display("Running test case: %0d + %0d = ?", a, b);
+        end
         else begin
-            $error("Test case 1 failed Seg: %h Neg: %h An: %h", seg, neg, an); 
-            overall_test = 1'b0;
+            $display("Running test case: %0d - %0d = ?", a, b);
+        end
+        
+        // Apply inputs
+        a = taska;
+        b = taskb;
+        sub = tasksub;
+        #10; // Wait for the result
+        
+        // Check the result
+        if (seg == expected_seg && neg == expected_neg && an == expected_an) begin
+            $info("Test case passed. Seg: %h Neg: %h An: %h", seg, neg, an);
         end 
-        
-        // Test case 2: 0 + 5 = 5
-        $display("Test case 2: 0 + 5 = 5");
-        a = 4'h0;
-        b = 4'h5;
-        sub = 1'b0;
-        #10;
-        if (seg == 7'h12 && neg == 1'b0 && an == 4'b1110) $info("Test case 2 passed Seg: %h Neg: %h An: %h", seg, neg, an);
         else begin
-            $error("Test case 2 failed Seg: %h Neg: %h An: %h", seg, neg, an); 
+            $error("Test case failed. Expected Seg: %h Neg: %h An: %h, but got Seg: %h Neg: %h An: %h", expected_seg, expected_neg, expected_an, seg, neg, an);
             overall_test = 1'b0;
         end
-
-        // Test case 3: 2 + 4 = 6
-        $display("Test case 3: 2 + 4 = 6");
-        a = 4'h2;
-        b = 4'h4;
-        sub = 1'b0;
-        #10;
-        if (seg == 7'h02 && neg == 1'b0 && an == 4'b1110) $info("Test case 3 passed Seg: %h Neg: %h An: %h", seg, neg, an);
-        else begin
-            $error("Test case 3 failed Seg: %h Neg: %h An: %h", seg, neg, an); 
-            overall_test = 1'b0;
-        end
-
-        // Test case 4: -2 + -2 = -4, carry out
-        $display("Test case 4: -2 + -2 = -4, carry out");
-        a = 4'hE;
-        b = 4'hE;
-        sub = 1'b0;
-        #10;
-        if (seg == 7'h19 && neg == 1'b1 && an == 4'b1110) $info("Test case 4 passed Seg: %h Neg: %h An: %h", seg, neg, an);
-        else begin
-            $error("Test case 4 failed Seg: %h Neg: %h An: %h", seg, neg, an); 
-            overall_test = 1'b0;
-        end
-
-        // Test case 5: 7 + -4 = 3, carry out
-        $display("Test case 5: 7 + -4 = 3, carry out");
-        a = 4'h7;
-        b = 4'hC;
-        sub = 1'b0;
-        #10;
-        if (seg == 7'h30 && neg == 1'b0 && an == 4'b1110) $info("Test case 5 passed Seg: %h Neg: %h An: %h", seg, neg, an);
-        else begin
-            $error("Test case 5 failed Seg: %h Neg: %h An: %h", seg, neg, an); 
-            overall_test = 1'b0;
-        end
-
-        // Test case 6: -6 + 1 = -5, carry out
-        $display("Test case 6: -6 + 1 = -5, carry out");
-        a = 4'hA;
-        b = 4'h1;
-        sub = 1'b0;
-        #10;
-        if (seg == 7'h12 && neg == 1'b1 && an == 4'b1110) $info("Test case 6 passed Seg: %h Neg: %h An: %h", seg, neg, an);
-        else begin
-            $error("Test case 6 failed Seg: %h Neg: %h An: %h", seg, neg, an); 
-            overall_test = 1'b0;
-        end
-
-        // Test case 7: 5 + 6 = 11
-        $display("Test case 7: 5 + 6 = 11");
-        a = 4'h5;
-        b = 4'h6;
-        sub = 1'b0;
-        #10;
-        if (seg == 7'h03 && neg == 1'b0 && an == 4'b1110) $info("Test case 7 passed Seg: %h Neg: %h An: %h", seg, neg, an);
-        else begin
-            $error("Test case 7 failed Seg: %h Neg: %h An: %h", seg, neg, an); 
-            overall_test = 1'b0;
-        end
-
-        // Test case 8: -8 + -1 = -9
-        $display("Test case 8: -8 + -1 = -9");
-        a = 4'h8;
-        b = 4'hF;
-        sub = 1'b0;
-        #10;
-        if (seg == 7'h18 && neg == 1'b1 && an == 4'b1110) $info("Test case 8 passed Seg: %h Neg: %h An: %h", seg, neg, an);
-        else begin
-            $error("Test case 8 failed Seg: %h Neg: %h An: %h", seg, neg, an); 
-            overall_test = 1'b0;
-        end
-
-
-        
-    endtask
-
-    // Test task for subtraction
-    task automatic test_sub;
-        // Test case 1: 0 - 0 = 0
-        a = 4'b0000;
-        b = 4'b0000;
-        sub = 1'b1;
-        #10;
-        if (seg !== 4'b0000 || neg !== 1'b0 || an !== 1'b1110) $error("Test case 1 failed");
-
-        // Test case 2: 7 - 5 = 2
-        a = 4'b0111;
-        b = 4'b0101;
-        sub = 1'b1;
-        #10;
-        if (seg !== 4'b0010 || neg !== 1'b0 || an !== 1'b1110) $error("Test case 2 failed");
-
-        // Test case 3: 1 - 15 = 2, borrow out
-        a = 4'b0001;
-        b = 4'b1111;
-        sub = 1'b1;
-        #10;
-        if (seg !== 4'b0010 || neg !== 1'b1 || an !== 1'b1110) $error("Test case 3 failed");
     endtask
     
     always begin
-        overall_test = 1'b1;
+    // Define your test cases
+    // Each test case is {a, b, sub, expected_seg, expected_neg, expected_an}
+    reg [20:0] test_cases [0:14] = {
+        //{a  | b  | sub | seg  | expected_neg, expected_an}
+        {4'h0, 4'h0, 1'b0, 7'h40, 1'b0, 4'b1110}, // 0 + 0
+        {4'h0, 4'h5, 1'b0, 7'h12, 1'b0, 4'b1110}, // 0 + 5
+        {4'h9, 4'h0, 1'b1, 7'h78, 1'b1, 4'b1110}, //-7 - 0
+        {4'h2, 4'h4, 1'b0, 7'h02, 1'b0, 4'b1110}, // 2 + 4
+        {4'hE, 4'hE, 1'b0, 7'h19, 1'b1, 4'b1110}, //-2 +-2
+        {4'h7, 4'hC, 1'b0, 7'h30, 1'b0, 4'b1110}, // 7 +-4
+        {4'hA, 4'h1, 1'b0, 7'h12, 1'b1, 4'b1110}, //-6 + 1
+        {4'h5, 4'h6, 1'b0, 7'h03, 1'b0, 4'b1110}, // 5 + 6
+        {4'h8, 4'hF, 1'b0, 7'h18, 1'b1, 4'b1110}, //-8 +-1
+        {4'h6, 4'h5, 1'b1, 7'h40, 1'b0, 4'b1110}, // 6 - 5
+        {4'hD, 4'hB, 1'b1, 7'h24, 1'b0, 4'b1110}, //-3 --5
+        {4'h2, 4'hB, 1'b1, 7'h78, 1'b0, 4'b1110}, // 2 --5
+        {4'hB, 4'h3, 1'b1, 7'h00, 1'b1, 4'b1110}, //-5 - 3
+        {4'h1, 4'h8, 1'b1, 7'h18, 1'b0, 4'b1110}, // 1 --8
+        {4'hC, 4'h6, 1'b1, 7'h08, 1'b1, 4'b1110}  //-4 - 6
+        };
+    
+    // Run through each test case
+    for (int i = 0; i < 14; i = i + 1) begin
+        run_test_case(test_cases[i][20:17], test_cases[i][16:13], test_cases[i][12], test_cases[i][11:5], test_cases[i][4], test_cases[i][3:0]);
+    end
 
-        #10;
-        test_add;
-        #10;
-        test_sub;
+        // overall_test = 1'b1;
+
+        // #10;
+        // test_add;
+        // #10;
+        // test_sub;
 
         if (overall_test) $display("Overall Result: PASS");
         else $display("Overall Result: FAIL");
