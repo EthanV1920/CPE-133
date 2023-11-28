@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1698968519">
+  <File Type="ROUTE-PWR" Name="Adder_Subtractor_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Adder_Subtractor.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Adder_Subtractor_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Adder_Subtractor_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Adder_Subtractor.msk"/>
+  <File Type="ROUTE-CLK" Name="Adder_Subtractor_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Adder_Subtractor.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Adder_Subtractor_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Adder_Subtractor.bit"/>
+  <File Type="BG-DRC" Name="Adder_Subtractor.drc"/>
+  <File Type="BG-BGN" Name="Adder_Subtractor.bgn"/>
+  <File Type="BG-BIN" Name="Adder_Subtractor.bin"/>
+  <File Type="BITSTR-RBT" Name="Adder_Subtractor.rbt"/>
+  <File Type="BITSTR-NKY" Name="Adder_Subtractor.nky"/>
+  <File Type="BITSTR-BMM" Name="Adder_Subtractor_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Adder_Subtractor.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Adder_Subtractor_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Adder_Subtractor.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Adder_Subtractor.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="Adder_Subtractor_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Adder_Subtractor.hwdef"/>
+  <File Type="PLACE-IO" Name="Adder_Subtractor_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Adder_Subtractor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Adder_Subtractor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Adder_Subtractor_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Adder_Subtractor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Adder_Subtractor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Adder_Subtractor_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Adder_Subtractor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Adder_Subtractor_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Adder_Subtractor_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Adder_Subtractor_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Adder_Subtractor_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Adder_Subtractor_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Adder_Subtractor_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Adder_Subtractor_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Adder_Subtractor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Adder_Subtractor_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Adder_Subtractor_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Adder_Subtractor_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Adder_Subtractor_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="Adder_Subtractor_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Adder_Subtractor_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Adder_Subtractor_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Adder_Subtractor_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Adder_Subtractor_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Adder_Subtractor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Adder_Subtractor_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Adder_Subtractor_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Adder_Subtractor_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Adder_Subtractor_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Adder_Subtractor_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Adder_Subtractor_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Adder_Subtractor_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Adder_Subtractor_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Adder_Subtractor_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="Adder_Subtractor.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Adder_Subtractor_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Adder_Subtractor_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Adder_Subtractor.rcfi"/>
+  <File Type="CFI_FILE" Name="Adder_Subtractor.cfi"/>
+  <File Type="RNPI_FILE" Name="Adder_Subtractor.rnpi"/>
+  <File Type="NPI_FILE" Name="Adder_Subtractor.npi"/>
+  <File Type="RBD_FILE" Name="Adder_Subtractor.rbd"/>
+  <File Type="ROUTE-RQS" Name="Adder_Subtractor_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Adder_Subtractor_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FA.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BIN_HEX.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SEGMENT_ADDER.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HA.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RCA_FA.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Validity_Check.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Adder_Subtractor.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Adder_Subtractor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Lab_4_Basys3_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Adder_Subtractor.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
