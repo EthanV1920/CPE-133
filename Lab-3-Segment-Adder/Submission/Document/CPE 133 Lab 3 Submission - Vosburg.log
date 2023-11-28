@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.3)  24 OCT 2023 10:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  3 NOV 2023 21:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,12 +266,12 @@ File: Figures/CPE 133 Lab 3 Simulation.png Graphic file (type png)
 <use Figures/CPE 133 Lab 3 Simulation.png>
 Package pdftex.def Info: Figures/CPE 133 Lab 3 Simulation.png  used on input line 31.
 (pdftex.def)             Requested size: 346.89731pt x 169.89145pt.
-<Figures/CPE 133 Lab 3 Elaboragted Design.png, id=34, 2203.23125pt x 627.34375pt>
-File: Figures/CPE 133 Lab 3 Elaboragted Design.png Graphic file (type png)
-<use Figures/CPE 133 Lab 3 Elaboragted Design.png>
-Package pdftex.def Info: Figures/CPE 133 Lab 3 Elaboragted Design.png  used on input line 42.
+<Figures/CPE 133 Lab 3 Elaborated Design.png, id=34, 2203.23125pt x 627.34375pt>
+File: Figures/CPE 133 Lab 3 Elaborated Design.png Graphic file (type png)
+<use Figures/CPE 133 Lab 3 Elaborated Design.png>
+Package pdftex.def Info: Figures/CPE 133 Lab 3 Elaborated Design.png  used on input line 42.
 (pdftex.def)             Requested size: 411.93767pt x 117.29163pt.
- [2 <./Figures/CPE 133 Lab 3 Simulation.png> <./Figures/CPE 133 Lab 3 Elaboragted Design.png>]
+ [2 <./Figures/CPE 133 Lab 3 Simulation.png> <./Figures/CPE 133 Lab 3 Elaborated Design.png>]
 <Figures/CPE 133 Lab 3 Error Log.png, id=44, 1209.51875pt x 964.60374pt>
 File: Figures/CPE 133 Lab 3 Error Log.png Graphic file (type png)
 <use Figures/CPE 133 Lab 3 Error Log.png>
@@ -283,14 +283,14 @@ Package rerunfilecheck Info: File `"CPE 133 Lab 3 Submission - Vosburg".out' has
  ) 
 Here is how much of TeX's memory you used:
  8705 strings out of 476025
- 140159 string characters out of 5790017
+ 140152 string characters out of 5790016
  1852388 words of memory out of 5000000
  29067 multiletter control sequences out of 15000+600000
  514403 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,76p,392b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "CPE 133 Lab 3 Submission - Vosburg.pdf" (3 pages, 1646870 bytes).
+Output written on "CPE 133 Lab 3 Submission - Vosburg.pdf" (3 pages, 1647102 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
