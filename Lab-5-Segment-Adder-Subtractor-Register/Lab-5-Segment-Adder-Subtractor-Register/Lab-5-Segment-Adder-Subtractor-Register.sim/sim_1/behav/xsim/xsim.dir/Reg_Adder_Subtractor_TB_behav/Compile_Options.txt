@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Reg_Adder_Subtractor_TB_behav" "xil_defaultlib.Reg_Adder_Subtractor_TB" "xil_defaultlib.glbl" -log "elaborate.log" 
