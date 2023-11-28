@@ -1,0 +1,10 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+Z:/Documents/git/CPE-133/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,
+Z:/Documents/git/CPE-133/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector.srcs/sim_1/new/FSM_TB.sv,1700369920,systemVerilog,,,,FSM_TB,,uvm,,,,,,
+Z:/Documents/git/CPE-133/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector.srcs/sources_1/import/bc_dec.vhd,1700285789,vhdl,,,,bc_dec;clk_div,,,,,,,,
+Z:/Documents/git/CPE-133/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector.srcs/sources_1/import/clock_div2.vhd,1700290107,vhdl,,,,clk_div2,,,,,,,,
+Z:/Documents/git/CPE-133/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector.srcs/sources_1/import/seq_driver.vhd,1700285779,vhdl,,,,seq_dvr,,,,,,,,
+Z:/Documents/git/CPE-133/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector.srcs/sources_1/new/FSM.sv,1700349626,systemVerilog,,Z:/Documents/git/CPE-133/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector/Lab-6-Sequence-Detector.srcs/sim_1/new/FSM_TB.sv,,FSM,,uvm,,,,,,
