@@ -20,6 +20,4 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Documents/git/CPE-133/Lab-
 INFO: [VRFC 10-311] analyzing module Validity_Check_TB
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Adder_Subtractor_TB
-WARNING: [VRFC 10-8497] literal value 'b1110 truncated to fit in 1 bits [Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv:157]
-WARNING: [VRFC 10-8497] literal value 'b1110 truncated to fit in 1 bits [Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv:164]
-WARNING: [VRFC 10-8497] literal value 'b1110 truncated to fit in 1 bits [Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv:171]
+WARNING: [VRFC 10-3824] variable 'test_cases' must explicitly be declared as automatic or static [Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv:81]

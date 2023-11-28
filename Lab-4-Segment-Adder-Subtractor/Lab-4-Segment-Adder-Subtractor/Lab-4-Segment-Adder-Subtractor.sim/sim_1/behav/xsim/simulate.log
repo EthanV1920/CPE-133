@@ -1,275 +1,70 @@
 Time resolution is 1 ps
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 20 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 30 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 40 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 50 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 60 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 70 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 80 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 90 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Error: Test case 1 failed
-Time: 110 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 157
-Error: Test case 2 failed
-Time: 120 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 164
-Error: Test case 3 failed
-Time: 130 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 171
-Overall Result: FAIL
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 150 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 160 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 170 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 180 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 190 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 200 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 210 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 220 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Error: Test case 1 failed
-Time: 240 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 157
-Error: Test case 2 failed
-Time: 250 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 164
-Error: Test case 3 failed
-Time: 260 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 171
-Overall Result: FAIL
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 280 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 290 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 300 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 310 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 320 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 330 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 340 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 350 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Error: Test case 1 failed
-Time: 370 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 157
-Error: Test case 2 failed
-Time: 380 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 164
-Error: Test case 3 failed
-Time: 390 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 171
-Overall Result: FAIL
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 410 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 420 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 430 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 440 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 450 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 460 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 470 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 480 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Error: Test case 1 failed
-Time: 500 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 157
-Error: Test case 2 failed
-Time: 510 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 164
-Error: Test case 3 failed
-Time: 520 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 171
-Overall Result: FAIL
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 540 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 550 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 560 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 570 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 580 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 590 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 600 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 610 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Error: Test case 1 failed
-Time: 630 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 157
-Error: Test case 2 failed
-Time: 640 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 164
-Error: Test case 3 failed
-Time: 650 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 171
-Overall Result: FAIL
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 670 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 680 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 690 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 700 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 710 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 720 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 730 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 740 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Error: Test case 1 failed
-Time: 760 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 157
-Error: Test case 2 failed
-Time: 770 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 164
-Error: Test case 3 failed
-Time: 780 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 171
-Overall Result: FAIL
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 800 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 810 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 820 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 830 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 840 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 850 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 860 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 870 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Error: Test case 1 failed
-Time: 890 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 157
-Error: Test case 2 failed
-Time: 900 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 164
-Error: Test case 3 failed
-Time: 910 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 171
-Overall Result: FAIL
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 930 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 940 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 950 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 960 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 970 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 980 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 990 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 1 us  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Test case 1: 0 + 0 = 0
-Info: Test case 1 passed Seg: 40 Neg: 0 An: e
-Time: 20 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 56
-Test case 2: 0 + 5 = 5
-Info: Test case 2 passed Seg: 12 Neg: 0 An: e
-Time: 30 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 68
-Test case 3: 2 + 4 = 6
-Info: Test case 3 passed Seg: 02 Neg: 0 An: e
-Time: 40 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 80
-Test case 4: -2 + -2 = -4, carry out
-Info: Test case 4 passed Seg: 19 Neg: 1 An: e
-Time: 50 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 92
-Test case 5: 7 + -4 = 3, carry out
-Info: Test case 5 passed Seg: 30 Neg: 0 An: e
-Time: 60 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 104
-Test case 6: -6 + 1 = -5, carry out
-Info: Test case 6 passed Seg: 12 Neg: 1 An: e
-Time: 70 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 116
-Test case 7: 5 + 6 = 11
-Error: Test case 7 failed Seg: 03 Neg: 0 An: f
-Time: 80 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 130
-Test case 8: -8 + -1 = -9
-Error: Test case 8 failed Seg: 78 Neg: 0 An: f
-Time: 90 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_add  Scope: Adder_Subtractor_TB.test_add  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 142
-Error: Test case 1 failed
-Time: 110 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 157
-Error: Test case 2 failed
-Time: 120 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 164
-Error: Test case 3 failed
-Time: 130 ns  Iteration: 0  Process: /Adder_Subtractor_TB/test_sub  Scope: Adder_Subtractor_TB.test_sub  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 171
-Overall Result: FAIL
-Test case 1: 0 + 0 = 0
-Info: Test case 1 
+Running test case: 0 + 0 = ?
+Info: Test case passed. Seg: 40 Neg: 0 An: e
+Time: 10 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 0 + 5 = ?
+Info: Test case passed. Seg: 12 Neg: 0 An: e
+Time: 20 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 9 - 0 = ?
+Info: Test case passed. Seg: 78 Neg: 1 An: e
+Time: 30 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 2 + 4 = ?
+Info: Test case passed. Seg: 02 Neg: 0 An: e
+Time: 40 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 14 + 14 = ?
+Info: Test case passed. Seg: 19 Neg: 1 An: e
+Time: 50 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 7 + 12 = ?
+Info: Test case passed. Seg: 30 Neg: 0 An: e
+Time: 60 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 10 + 1 = ?
+Info: Test case passed. Seg: 12 Neg: 1 An: e
+Time: 70 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 5 + 6 = ?
+Info: Test case passed. Seg: 03 Neg: 0 An: f
+Time: 80 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 8 + 15 = ?
+Info: Test case passed no display. Seg: 78 Neg: 0 An: f
+Time: 90 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 69
+Running test case: 6 - 5 = ?
+Info: Test case passed no display. Seg: 79 Neg: 0 An: e
+Time: 100 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 69
+Running test case: 13 - 11 = ?
+Info: Test case passed. Seg: 24 Neg: 0 An: e
+Time: 110 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 2 - 11 = ?
+Info: Test case passed. Seg: 78 Neg: 0 An: e
+Time: 120 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 11 - 3 = ?
+Info: Test case passed. Seg: 00 Neg: 1 An: e
+Time: 130 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 1 - 8 = ?
+Info: Test case passed. Seg: 18 Neg: 0 An: f
+Time: 140 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 0 + 0 = ?
+Info: Test case passed. Seg: 40 Neg: 0 An: e
+Time: 10 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 0 + 5 = ?
+Info: Test case passed. Seg: 12 Neg: 0 An: e
+Time: 20 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 9 - 0 = ?
+Info: Test case passed. Seg: 78 Neg: 1 An: e
+Time: 30 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 2 + 4 = ?
+Info: Test case passed. Seg: 02 Neg: 0 An: e
+Time: 40 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 14 + 14 = ?
+Info: Test case passed. Seg: 19 Neg: 1 An: e
+Time: 50 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 7 + 12 = ?
+Info: Test case passed. Seg: 30 Neg: 0 An: e
+Time: 60 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 10 + 1 = ?
+Info: Test case passed. Seg: 12 Neg: 1 An: e
+Time: 70 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 5 + 6 = ?
+Info: Test case passed. Seg: 03 Neg: 0 An: f
+Time: 80 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor/Lab-4-Segment-Adder-Subtractor.srcs/sim_1/new/Adder_Subtractor_TB.sv Line: 66
+Running test case: 8 + 15 = ?
+Info: Test case passed no display. Seg: 78 Neg: 0 An: f
+Time: 90 ns  Iteration: 0  Process: /Adder_Subtractor_TB/run_test_case  Scope: Adder_Subtractor_TB.run_test_case  File: Z:/Documents/git/CPE-133
