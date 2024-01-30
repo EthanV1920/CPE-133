@@ -1,0 +1,84 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
+| Date         : Fri Dec  1 00:22:39 2023
+| Host         : ETHANVOSBURAA6F running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Multiplier_control_sets_placed.rpt
+| Design       : Multiplier
+| Device       : xc7a35ti
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     6 |
+|    Minimum number of control sets                        |     6 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    14 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     6 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     0 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              22 |            8 |
+| No           | No                    | Yes                    |               5 |            2 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               7 |            2 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+-----------------------------------+-----------------------+------------------+----------------+--------------+
+|            Clock Signal            |           Enable Signal           |    Set/Reset Signal   | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------+-----------------------------------+-----------------------+------------------+----------------+--------------+
+|  SSEG0/CLK_DIV/CLK                 |                                   |                       |                1 |              2 |         2.00 |
+|  FSM0/FSM_onehot_state_reg[0]_0[0] |                                   |                       |                2 |              5 |         2.50 |
+|  GLOBAL_CLK_IBUF_BUFG              |                                   | GLOBAL_IN_BUTTON_IBUF |                2 |              5 |         2.50 |
+|  GLOBAL_CLK_IBUF_BUFG              | FSM0/FSM_onehot_state_reg[0]_0[0] |                       |                2 |              7 |         3.50 |
+|  GLOBAL_CLK_IBUF_BUFG              | FSM0/E[0]                         | FSM0/Q[0]             |                2 |              8 |         4.00 |
+|  GLOBAL_CLK_IBUF_BUFG              |                                   |                       |                5 |             15 |         3.00 |
++------------------------------------+-----------------------------------+-----------------------+------------------+----------------+--------------+
+
+

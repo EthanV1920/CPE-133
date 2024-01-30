@@ -1,0 +1,11 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,
+Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sim_1/new/Multiplier_TB.sv,1701508155,systemVerilog,,,,Multiplier_TB,,uvm,,,,,,
+Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sources_1/imports/Resources/Accumulator.sv,1701395765,systemVerilog,,Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sources_1/new/Multiplier.sv,,Accumulator,,uvm,,,,,,
+Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sources_1/imports/Resources/ShiftRegister.sv,1701412124,systemVerilog,,Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sim_1/new/Multiplier_TB.sv,,ShiftRegister,,uvm,,,,,,
+Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sources_1/imports/Resources/univ_sseg.v,1701388810,verilog,,,,clk_divder;cnt_convert_14b;cnt_convert_7b;univ_sseg,,uvm,,,,,,
+Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sources_1/new/Multiplier.sv,1701412424,systemVerilog,,Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sources_1/new/Multiplier_FSM.sv,,Multiplier,,uvm,,,,,,
+Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sources_1/new/Multiplier_FSM.sv,1701418651,systemVerilog,,Z:/Documents/git/CPE-133/Lab-7-Multiplier/Lab-7-Multiplier/Lab-7-Multiplier.srcs/sources_1/imports/Resources/ShiftRegister.sv,,Multiplier_FSM,,uvm,,,,,,
