@@ -4,11 +4,10 @@ Ethan Vosburg (Fall 2023 at Cal Poly SLO)
 
 ## Description of Course
 
-CPE 133 is a first course in digital design that covers computing fundamentals such as number systems, various forms of representing  logic, common logic devices, binary math, sequential circuits and finite state machines. The lab portion of the course requires applying lecture theory to practical designs of logic circuitry. (Source: Canvas Shell Professor Gary Perks)
+CPE 133 is a first course in digital design that covers computing fundamentals such as number systems, various forms of representing logic, common logic devices, binary math, sequential circuits and finite state machines. The lab portion of the course requires applying lecture theory to practical designs of logic circuitry. (Source: Canvas Shell Professor Gary Perks)
 
 ## Equipment Used
-
-In this class the Basys 3 Development Board will be used to introduce students to the fundamentals of working with a FPGA (Felid Programmable Gate Array)
+In this class, the Basys 3 Development Board will be used to introduce students to the fundamentals of working with an FPGA (Felid Programmable Gate Array)
 
 - [Basys 3 Development board](https://digilent.com/shop/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
 - [Micro USB Cable with Data Pass Through](https://www.amazon.com/AmazonBasics-Male-Micro-Cable-Black/dp/B0711PVX6Z/?th=1)
